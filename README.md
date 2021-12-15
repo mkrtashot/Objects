@@ -73,3 +73,53 @@ fiftyThirtyTwenty(13450); // ➞ { "Needs": 6725, "Wants": 4035, "Savings":
 ```
 
 Here is the [solution](5.50_30_20.js)
+
+```
+Create a one-liner function
+Create a function that takes an object as an argument and returns a string with facts about the city. The city
+facts will need to be extracted from the object's three properties:
+```
+
+```
+name
+population
+continent
+```
+
+```
+The string should have the following format: X has a population of Y and is situated in Z (where X is the city
+name, Y is the population and Z is the continent the city is situated in).
+```
+
+```
+cityFacts({
+name: "Paris",
+population: "2,140,526",
+continent: "Europe",
+}); // ➞ "Paris has a population of 2,140,526 and is situated in Europe"
+cityFacts({
+name: "Tokyo",
+population: "13,929,286",
+continent: "Asia",
+}); // ➞ "Tokyo has a population of 13,929,286 and is situated in Asia"
+```
+
+Here is the [solution](6.population.js)
+
+```
+
+Create a function that takes infinite count of elements, operator and prints their sum. If there's no
+operator, then default should be +
+
+```
+
+```
+
+printSum("\*", 1, 2, 3); // 9
+printSum(1, 2, 3, 4, 5); // 15
+printSum("-", 1, 2, 3, 6, 7); // -17
+printSum("\*\*", 2, 3, 2); // 64
+
+```
+
+Here is the [solution](7.operators.js)
