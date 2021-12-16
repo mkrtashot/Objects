@@ -138,3 +138,7 @@ getFrequencies([]) ➞ {}
 ```
 
 Here is the [solution](8.count.js)
+
+Largest Permutation task on [Hackerrank](https://www.hackerrank.com/challenges/largest-permutation/problem)
+
+Here is the [solution](9.largest_permutation.js)
